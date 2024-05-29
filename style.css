@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #f5d04e;
+}
+.main-section {
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-left: 600px;
+    margin-right: 500px;
+    padding: 20px;
+    transition: all 200ms ease-in-out;
+    display: inline-block;
+   box-shadow: 10px 10px 3px black;
+   border-radius: 10px;
+}
+.main-section:hover {
+    filter: brightness(0.85);
+}
+.main-img {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    }
+.main-sub-h5 {
+     background-color: #f0d154;
+      margin-right: 300px;
+      font-family: "REM", sans-serif;
+}
+    .main-sub-h2 {
+        font-family: "REM", sans-serif;
+        font-style: normal;
+        font-optical-sizing: auto;
+    }
+.footer-img {
+    font-family: "REM", sans-serif;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
